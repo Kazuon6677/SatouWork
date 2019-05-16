@@ -8,6 +8,16 @@ namespace SatouWork
         {
             var sato = new Sato(true);
 
+            for (int i = 1; i <=9 ; i++)
+            {
+                for (int j = 1; j <=9; j++)
+                {
+                    Console.Write($" {i} * {j} = {i*j}");
+                }
+
+                Console.WriteLine();
+            }
+
             Console.Write(sato.Cute ? "佐藤好可愛" : "佐藤不可愛");
         }
     }
